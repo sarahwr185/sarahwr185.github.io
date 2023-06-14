@@ -2,6 +2,12 @@
 	h1{
 		text-align:center;
 	}
+	h2{
+		color:#fff;
+	}
+	main{
+		color:pink;
+	}
 	#main-nav{
 		text-align:center;
 		margin:auto;
