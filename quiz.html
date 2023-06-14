@@ -1,0 +1,68 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<title>Sarah Rohrbaugh Project 4</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<h1>Main Heading</h1>
+			<div class="vertical-menu">
+				<nav id="main-nav">
+					<ul>
+						<li><a href="index.html" class="active">Home</a></li>
+						<li><a href="quiz.html">Quiz</a></li>
+						<li><a href="contact.html">Contact Me</a></li>
+					</ul>
+				</nav>
+			</div>
+	</header>
+	<div class="columns" id="main-content">
+		<div class="column one">
+			<h3>Website Development Quiz</h3>
+			<h4>If Statements are Used to?</h4>
+			<form action= "/index.html">
+				<select name= "answ" id= "answ">
+					<option value= "Execute Code if conditions are met.">Execute Code if conditions are met.</option>
+					<option value= "They use img src code.">They use img src code.</option>
+					<option value= "C# programming">C# programming</option>
+					<option value= "Javascript">Javascript</option>
+					<option value= "Use python">Use python</option>
+				</select>
+			<h4>Code For Images</h4>
+				<select name= "answ" id= "answ1">
+					<option value= "<img src = 'images/cheetah.jpg'">img src = 'images/cheetah.jpg'</option>
+					<option value= "<html = "" ">html = ""</option>
+					<option value= "<h1 ">h1</option>
+					<option value= "<header">Header</option>
+					<option value= "<lang = "en"">lang = "en""</option>
+				</select>
+			<h4>What Does HTTPS Stand For?</h4>
+				<select name= "answ" id= "answ2">
+					<option value= "Hypertext">Hypertext</option>
+					<option value= "HyperText Transfer Protocal Secure">HyperText Transfer Protocal Secure</option>
+					<option value= "Python Secure">Python Secure</option>
+					<option value= "Text Secure">Text Secure</option>
+					<option value= "Transfer Secure">Transfer Secure</option>
+				</select>
+			<h4>Comment Code For HTML?</h4>
+				<select name= "answ" id= "answ3">
+					<option value= "//">//</option>
+					<option value= "/* */">/* */</option>
+					<option value= "/#">/#</option>
+					<option value= "!-- --">!-- --</option>
+					<option value= "// //">// //</option>
+				</select>
+				<br><br>
+			</form>
+			<button onclick= "showSubmit()">Submit</button>
+		<div id="result"></div>
+		</div>
+	</div>
+		<footer>
+			<p>&copy; by sarahrohrbaugh</p>
+		</footer>
+	<script src="script.js"></script>
+</body>
+</html>
